@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image links</title>
+    <style>
+        nav {
+            background-color: hsl(214, 98%, 50%);
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: rgb(58, 0, 0);
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+       /* Reset default margin and padding */
+       body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: hsl(44, 57%, 58%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 368px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 0 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Essence Of Life</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <h3>The Essence Of Technology</h3>
+        <p>In our technological era we are raised to believe that technology is a mere tool that we can make good or ill use of depending on our “subjective” disposition.</p>
+        <p>“Men first sense what is necessary; then they attend to what is useful; afterwards, they notice what is comfortable; further on, they take delight in pleasure; thereafter, they dissolve themselves in luxury; and finally they go mad in squandering their substances.”  Giambattista Vico</p>
+        <!-- Linked image related to technology -->
+        <a href="https://voegelinview.com/wp-content/uploads/2022/09/Robot-and-Human-e1666276492326.jpg"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\Robot-and-Human.jpg" alt="Technology"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore our gallery of nature images.</p>
+        <div class="image-grid">
+            <!-- Linked images related to nature -->
+            <a href="https://img.freepik.com/free-photo/white-cloud-blue-sky-sea_74190-4488.jpg?t=st=1709585005~exp=1709588605~hmac=35fa3769ae2773d4ffb79b231877a630429ef548421e0375a55b09e4795489ba&w=740"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\white-cloud-blue-sky-sea.jpg" alt="white cloud blue sky"></a>
+            <a href="https://images.pexels.com/photos/237321/pexels-photo-237321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\waterfall.jpg" alt="Waterfall"></a>
+            <a href="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\Lion.jpg" alt="Lion"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>A Feast For Your Soul - delicious menu items.</p>
+        <ul>
+            <!-- List of food items with linked images -->
+            <li><a href="https://images.pexels.com/photos/2245293/pexels-photo-2245293.jpeg"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\Bakery.jpg" alt="Bakery">Bakery</a></li>
+            <li><a href="https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\Barbecue.jpg" alt="Barbecue">Barbecue</a></li>
+            <li><a href="https://images.pexels.com/photos/2273823/pexels-photo-2273823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="c:\Users\Musa\Desktop\FEB 2024 COHORT\Web Development\images\Dessert.jpg" alt="Dessert">Dessert</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PB Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
